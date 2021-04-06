@@ -32,13 +32,7 @@ const styles = StyleSheet.create({
   container: {flex: 1, alignItems: 'center', justifyContent: 'center'},
 });
 
-const mapStateToProps = ({
-  user,
-}: {
-  user: InitialStateType;
-}) => ({
-  
-});
+const mapStateToProps = ({user}: {user: InitialStateType}) => ({});
 
 const mapDispatchToProps = (dispatch: any) => ({
   sampleAction: (

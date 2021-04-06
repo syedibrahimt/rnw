@@ -1,7 +1,5 @@
-import { takeLatest, all } from 'redux-saga/effects';
+import { takeLatest, all, call } from 'redux-saga/effects';
 import { AppTypes } from '../store/app/Actions';
-
-import { call } from 'redux-saga/effects';
 import UserActions from '../store/app/Actions';
 import { serviceClient } from '../services';
 /**
